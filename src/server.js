@@ -19,10 +19,6 @@ app.use((req,res,next)=>{
     next();
 })
 
-/*app.get('/database/solar_modules', (req,res,next)=>{
-    console.log('GET')
-    res.send(solar_modules)
-})*/
 app.get('/testing', (req,res,next)=>{
     console.log('TEST REQUEST')
     res.send({test: "Data blah blah"})
